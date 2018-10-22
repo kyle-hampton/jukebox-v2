@@ -1,0 +1,60 @@
+.container{
+  justify-content: center;
+  background-image: linear-gradient(#4D6066, #6ACBEA);
+}
+.wrapper{
+  background-image: linear-gradient(#4D6066, #2E5966);
+  width: 50%;
+  height: 550px;
+  border: 2px solid black;
+  border-radius: 100px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+/* ******************************************* image css ******************************************************** */
+.coverArt{
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+
+/* ******************************************* Button css ******************************************************** */
+.buttonWrapper{
+  text-align: center;
+  margin: 5px;
+}
+.button{
+  width: 100px;
+  /* background-color: lightgray; */
+  background-size: 100%;
+  /* border: 2px solid black; */
+}
+#previousButton{
+  background-image: url('./img/001-fast-forward-button.png');
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+  transform: scaleX(-1);
+}
+#playButton{
+  background-image: url('./img/012-play-button.png');
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+}
+#pauseButton{
+  background-image: url('./img/005-pause-button.png');
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+}
+#skipButton{
+  background-image: url('./img/001-fast-forward-button.png');
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+}
